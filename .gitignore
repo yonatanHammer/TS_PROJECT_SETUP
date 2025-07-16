@@ -1,0 +1,28 @@
+# Dependencies
+node_modules/
+
+# Build Outouts
+dist/
+build/
+out/
+
+# TS Cache
+*.tsbuildinfo
+
+# ENV
+.env
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+
+# OS and Editor junk
+.DS_Store
+.vscode/
+
+
+# Fail-Safe (compiled js files outside build/ or dist/)
+*.js
+*.js.map
